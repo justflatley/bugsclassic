@@ -1,0 +1,196 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+.field_with_errors{
+  display: flex;
+}
+
+.field_with_errors > .input {
+    border: 1px solid red;
+}
+
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.social-btn {
+  width:100%;
+}
+
+.social-text {
+  margin-left: #px
+}
+
+.svg-icon {
+  position: relative;
+  top: -1.5px;
+  vertical-align: middle;
+}
+
+.static-container {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.column-bottom-text {
+  margin-top: auto;
+}
+
+.circle-image {
+  border-radius: 50%;
+}
+/* CSS for orders summary box */
+
+.order-summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-summary-teammates-list {
+  padding-left: 19px;
+}
+
+/* CSS For Registration Status Bar */
+.circle {
+	position: relative;
+	min-width: 30px;
+	min-height: 30px;
+	background: #DBDBDB;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.line {
+	height: 3px;
+	width: 150px;
+	background: #DBDBDB;
+}
+
+.steps-container {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.steps-container > .active {
+	background: #00d1b2;
+	color: #FFF;
+}
+
+/* CSS for expanding payment methods */
+
+.row {
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	min-height: 20px;
+	max-height: 150px;
+}
+
+.row.active {
+	min-height: auto;
+}
+
+.content-wrap {
+  height: 0;
+  overflow: hidden;
+	opacity: 0;
+	font-size: 16px;
+	transition: all 0.4s ease-in-out;
+  padding-left: 18px;
+}
+
+.content-wrap.active {
+	height: auto;
+	opacity: 1;
+  margin-top: 10px;
+}
+
+.payment-method-select {
+  margin-right: 2px;
+}
+
+/* CSS for chips */
+
+.chip {
+    display: inline-flex;
+    padding: 0 25px;
+    /* height: 50px; */
+    /* font-size: 16px; */
+    line-height: 50px;
+    border-radius: 25px;
+    /* border-radius: 5rem; */
+    background-color: #f1f1f1;
+    max-width: 100%;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 90%;
+    height: 2.5rem;
+    margin-bottom: 12px;
+    margin-right: 4px;
+}
+.chip > .letter {
+    /* float: left; */
+    margin: 0 10px 0 -25px;
+    height: 2.5rem;
+    /* padding: 0 25px; */
+    /* text-align: center; */
+    width: 2.5rem;
+    /* width: 50px; */
+    border-radius: 50%;
+    background-color: hsl(171, 100%, 41%);
+    /* vertical-align: middle; */
+    /* line-height: 2.5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.delete {
+  left: 14px;
+  margin-left: -10px;
+}
+
+.form-submit  {
+  width: 50%;
+}
+
+@media only screen and (max-device-width: 1023px) {
+  .form-submit {
+    width: 100%;
+  }
+}

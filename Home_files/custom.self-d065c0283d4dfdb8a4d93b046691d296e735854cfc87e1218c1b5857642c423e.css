@@ -1,0 +1,39 @@
+/* line 1, /Users/jflatle/Documents/workspace/bugs_classic/app/assets/stylesheets/custom.scss */
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+/* line 7, /Users/jflatle/Documents/workspace/bugs_classic/app/assets/stylesheets/custom.scss */
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* line 15, /Users/jflatle/Documents/workspace/bugs_classic/app/assets/stylesheets/custom.scss */
+.has-bg-img {
+  background-image: url(/assets/erin_island_hero-c3505b19c56ee72a86f9caa70cdc701227e6e0f615fc4e7087bb6744e1390db6.jpg);
+  background-size: cover;
+}
+
+/* line 20, /Users/jflatle/Documents/workspace/bugs_classic/app/assets/stylesheets/custom.scss */
+.logo-btn {
+  background-image: url(/assets/bugs_logo_original-965bc69782ea090f996bb650b8791fd0f689b8a721c945a8464bc1a9e5d11af8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 26, /Users/jflatle/Documents/workspace/bugs_classic/app/assets/stylesheets/custom.scss */
+.hero .title {
+  text-shadow: 0.8px 0.4px 0.3px rgba(0, 0, 0, 0.2);
+}
+
+/* line 30, /Users/jflatle/Documents/workspace/bugs_classic/app/assets/stylesheets/custom.scss */
+.hero .subtitle {
+  text-shadow: 0.8px 0.4px 0.3px rgba(0, 0, 0, 0.2);
+}
